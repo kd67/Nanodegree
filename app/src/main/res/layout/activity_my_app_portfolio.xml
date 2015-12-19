@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="nano.com.nanodegree.MyAppPortfolio">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingBottom="30dp"
+    android:text="@string/label1"/>
+    <Button
+        android:layout_marginBottom="16dp"
+        android:layout_width="200dp"
+        android:background="@color/orange"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify"
+        android:layout_gravity="center"
+        android:id="@+id/spot"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_marginBottom="16dp"
+        android:layout_width="200dp"
+        android:background="@color/orange"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:layout_gravity="center"
+        android:id="@+id/score"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:layout_marginBottom="16dp"
+        android:background="@color/orange"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lib"
+        android:layout_gravity="center"
+        android:id="@+id/libr"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_marginBottom="16dp"
+        android:background="@color/orange"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/build"
+        android:layout_gravity="center"
+        android:id="@+id/builditla"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_marginBottom="16dp"
+        android:background="@color/orange"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/myapp"
+        android:layout_gravity="center"
+        android:id="@+id/my"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>
